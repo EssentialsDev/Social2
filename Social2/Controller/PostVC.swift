@@ -1,8 +1,9 @@
 //
 //  PostVC.swift
-//  
+//  Social2
 //
-//  Created by Kasey Schlaudt on 9/9/17.
+//  Created by Cory Lowry on 7/20/21.
+//  Copyright © 2021 Kasey Schlaudt. All rights reserved.
 //
 
 import UIKit
@@ -39,15 +40,3 @@ class PostVC: UIViewController {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
