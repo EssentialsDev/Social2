@@ -29,7 +29,7 @@ class ShareSomethingCell: UITableViewCell {
         let httpsReference = Storage.storage().reference(forURL: userImgUrl)
         
         httpsReference.getData(maxSize: 1 * 1024 * 1024) { data, error in
-            if let error = error {
+            if error != nil {
                 // Uh-oh, an error occurred!
             } else {
                 // Data for "images/island.jpg" is returned

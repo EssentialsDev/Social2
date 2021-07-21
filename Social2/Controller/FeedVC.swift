@@ -43,7 +43,7 @@ class FeedVC: UITableViewController {
       let uid = KeychainWrapper.standard.string(forKey: "uid")
         Database.database().reference().child("users").child(uid!).observeSingleEvent(of: .value) { (snapshot) in
             if let postDict = snapshot.value as? [String : AnyObject] {
-                self.currentUserImageUrl = postDict["userImg"] as! String
+                self.currentUserImageUrl = postDict["userImg"] as? String
                 self.tableView.reloadData()
             }
         }

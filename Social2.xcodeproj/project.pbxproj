@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3460EC2B56A469A82AC5FA0F /* Pods_Social2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CE03F8FE1ADA452FAAE192 /* Pods_Social2.framework */; };
+		024B09B61BDF594CC6862F72 /* Pods_Social2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CE03F8FE1ADA452FAAE192 /* Pods_Social2.framework */; };
+		32C5C99326A7CB4D008E5D5A /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5C99226A7CB4D008E5D5A /* PostVC.swift */; };
 		4A5D2D5E1F44E72700E11E31 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D2D5D1F44E72700E11E31 /* FeedVC.swift */; };
 		4A6B70181F61B77700A3958B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B70171F61B77700A3958B /* PostCell.swift */; };
 		4A6B701A1F61B97B00A3958B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B70191F61B97B00A3958B /* Post.swift */; };
@@ -22,10 +23,10 @@
 		4AD84FE61F4E02B5008EDFEE /* ShareSomethingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD84FE51F4E02B5008EDFEE /* ShareSomethingCell.swift */; };
 		4AD84FE91F4E02FD008EDFEE /* ShareSomething.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD84FE81F4E02FD008EDFEE /* ShareSomething.swift */; };
 		4AF020E81F74160B00180A90 /* CommentPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF020E71F74160B00180A90 /* CommentPostVC.swift */; };
-		4AFCBA8B1F6484A70057851B /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCBA8A1F6484A70057851B /* PostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32C5C99226A7CB4D008E5D5A /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		41CE03F8FE1ADA452FAAE192 /* Pods_Social2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5D2D5D1F44E72700E11E31 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		4A6B70171F61B77700A3958B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		4AD84FE51F4E02B5008EDFEE /* ShareSomethingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSomethingCell.swift; sourceTree = "<group>"; };
 		4AD84FE81F4E02FD008EDFEE /* ShareSomething.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSomething.swift; sourceTree = "<group>"; };
 		4AF020E71F74160B00180A90 /* CommentPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentPostVC.swift; sourceTree = "<group>"; };
-		4AFCBA8A1F6484A70057851B /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostVC.swift; path = /Users/KC/Desktop/Social2/Social2/Controller/PostVC.swift; sourceTree = "<absolute>"; };
 		53DDB527E7BEBEEACD546073 /* Pods-Social2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social2/Pods-Social2.debug.xcconfig"; sourceTree = "<group>"; };
 		CC50C91005AEE48C5DA56A6A /* Pods-Social2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social2/Pods-Social2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3460EC2B56A469A82AC5FA0F /* Pods_Social2.framework in Frameworks */,
+				024B09B61BDF594CC6862F72 /* Pods_Social2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,11 +125,11 @@
 		4AFCBA891F64842B0057851B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4AFCBA8A1F6484A70057851B /* PostVC.swift */,
 				4A5D2D5D1F44E72700E11E31 /* FeedVC.swift */,
 				4A8225ED1F3A5F150027E5E7 /* ViewController.swift */,
 				4AA961B11F699B2B0071FAAD /* CommentsVC.swift */,
 				4AF020E71F74160B00180A90 /* CommentPostVC.swift */,
+				32C5C99226A7CB4D008E5D5A /* PostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,7 +154,6 @@
 				4A8225E51F3A5F140027E5E7 /* Frameworks */,
 				4A8225E61F3A5F140027E5E7 /* Resources */,
 				2354F7DAC19F9F7C70A2DE74 /* [CP] Embed Pods Frameworks */,
-				0B95E0155924331837A13DE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,11 +171,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Kasey Schlaudt";
 				TargetAttributes = {
 					4A8225E71F3A5F140027E5E7 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -212,34 +212,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B95E0155924331837A13DE1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social2/Pods-Social2-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2354F7DAC19F9F7C70A2DE74 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Social2/Pods-Social2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social2/Pods-Social2-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Social2/Pods-Social2-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C269524B8F260F1BBF4274B3 /* [CP] Check Pods Manifest.lock */ = {
@@ -248,13 +244,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Social2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -270,11 +269,11 @@
 				4AD84FE61F4E02B5008EDFEE /* ShareSomethingCell.swift in Sources */,
 				4AA961B21F699B2B0071FAAD /* CommentsVC.swift in Sources */,
 				4A5D2D5E1F44E72700E11E31 /* FeedVC.swift in Sources */,
+				32C5C99326A7CB4D008E5D5A /* PostVC.swift in Sources */,
 				4A8225EE1F3A5F150027E5E7 /* ViewController.swift in Sources */,
 				4AA961B01F699A920071FAAD /* CommentCell.swift in Sources */,
 				4A8225EC1F3A5F150027E5E7 /* AppDelegate.swift in Sources */,
 				4A6B701A1F61B97B00A3958B /* Post.swift in Sources */,
-				4AFCBA8B1F6484A70057851B /* PostVC.swift in Sources */,
 				4A6B70181F61B77700A3958B /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +314,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -322,8 +322,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -349,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -372,6 +374,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -379,8 +382,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -400,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,12 +418,12 @@
 			baseConfigurationReference = 53DDB527E7BEBEEACD546073 /* Pods-Social2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DP6RQZGX67;
 				INFOPLIST_FILE = Social2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaseyschlaudt.Social2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cory.Social;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -428,12 +433,13 @@
 			baseConfigurationReference = CC50C91005AEE48C5DA56A6A /* Pods-Social2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DP6RQZGX67;
 				INFOPLIST_FILE = Social2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaseyschlaudt.Social2;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cory.Social;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

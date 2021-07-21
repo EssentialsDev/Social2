@@ -1156,7 +1156,7 @@ NSString *const kGTMSessionFetcherUploadLocationObtainedNotification =
 
         // dont allow the updating of fileLength for uploads not using a data provider as they
         // should know the file length before the upload starts.
-        if (_uploadDataProvider != nil && uploadFileLength > 0) {
+          if (self->_uploadDataProvider != nil && uploadFileLength > 0) {
           [self setUploadFileLength:uploadFileLength];
           // Update the command and content-length headers if this is the last chunk to be sent.
           if (offset + chunkSize >= uploadFileLength) {
@@ -1404,7 +1404,7 @@ NSString *const kGTMSessionFetcherUploadLocationObtainedNotification =
     BOOL isFinalStatus = (uploadStatus == kStatusFinal);
     #pragma unused(hasUploadAllData,isFinalStatus)
     GTMSESSION_ASSERT_DEBUG(hasUploadAllData == isFinalStatus || !hasKnownChunkSize,
-                            @"uploadStatus:%@  newOffset:%zd (%lld + %zd)  fullUploadLength:%lld"
+                            @"uploadStatus:%@  newOffset%lldd (%lld + %zd)  fullUploadLength:%lld"
                             @" chunkFetcher:%@ requestHeaders:%@ responseHeaders:%@",
                             [responseHeaders objectForKey:kGTMSessionHeaderXGoogUploadStatus],
                             newOffset, self.currentOffset, previousContentLength,
